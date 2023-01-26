@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src = "konyha.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <title>Magyar konyha specialitásai</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">Menü</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Kezdőoldal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mitfozzek.html">Mit főzzek?</a>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="card" id="fejlec">
+      <h1>A magyar konyha specialitásai</h1>
+    </div>
+
+    <div class="card-container container">
+
+        <button onclick="kivalaszt()"><h2>Mit főzzek?</h2></button>
+
+        <div class="card" id="etel">
+            <h2 id="etelNEV"></h2>
+            <img id="etelIMG" src="" alt="" title="">
+            <div>
+                <p id="etelLEIRAS"></p>
+                <a id="etelLINK" href="" class="btn btn-primary" target="blank">Elkészítése</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer> <!-- 5.feladat: -->
+      <h3>Készítette: Szabó Levente Zalán és Tóth Roland</h3> <!-- 5.feladat: -->
+      <h6>Minden jog fenntartva ©</h6> <!-- 5.feladat: -->
+  </footer>
+</body>

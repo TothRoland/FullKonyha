@@ -1,0 +1,15 @@
+1.feladat: Oldal nyelve magyarra állítása + kódólás utf-8-ra állítása
+
+2.feladat: Címsorban megjelenő cím (forras.txt)
+
+3.feladat: Hivatkozás a konyha.css stíluslapra és a konyha.js scriptre
+
+4.feladat: fejlec + bevezeto
+
+5.feladat: footer
+
+6.feladat: mitfozzek.html (oldal nyelve, hivatkozas a css és js -re, fejléc, footer) gomb + teljes etel azonosítójú div létrehozása
+
+7.feladat: script.js létrehozása, tömb létrehozása az adatokkal, random generálás, tartalom megjelenítése
+
+8.feladat: style.css

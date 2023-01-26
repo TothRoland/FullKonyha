@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="hu"> <!-- 1.feladat: Oldal nyelve magyarra állítása + kódólás utf-8-ra állítása -->
+<head>
+    <meta charset="UTF-8"> <!-- 1.feladat: Oldal nyelve magyarra állítása + kódólás utf-8-ra állítása -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- 3.feladat: Hivatkozás a konyha.css stíluslapra -->
+    <script src = "konyha.js"></script> <!-- 3.feladat: Hivatkozás a konyha.js  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <title>A magyar konyha specialitásai</title> <!-- 2.feladat: Címsorban megjelenő cím "Magyar konyha specialitásai" -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand">Menü</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Kezdőoldal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mitfozzek.html">Mit főzzek?</a>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="card" id="fejlec"> <!-- 4.feladat: -->
+        <h1>A magyar konyha specialitásai</h1> <!-- 4.feladat: -->
+    </div>
+
+    <div class="card" id="bevezeto">
+        <p id="szoveg">Konyhakultúránk több mint ezeréves történelmi fejlődés nagyszerű eredménye, amely a mai napig formálódik és újul, azonban rengeteg tradicionális és jellegzetes ételt találtak ki a magyarok az idők során! Íme a 10 legjellegzetesebb magyar étel, amit bármikor megennél!</p>
+    </div>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h2>Gulyás</h2>
+            <img src="kepek/gulyas.jpg" alt="Gulyás" title="Gulyás">
+            <div>
+                <p>A gulyás nagyon népszerű magyar leves. Nagy marhahúsdarabokat, krumplit, zöldségeket, egy kevés paprikát és csípőset tartalmaz.</p>
+                <a href="https://www.youtube.com/watch?v=h-VDJTm8UAA" class="btn btn-primary" target="blank">Elkészítése</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <h2>Halászlé</h2>
+            <img src="kepek/halaszle.jpg" alt="Halászlé" title="Halászlé">
+            <div>
+                <p>Hagyományos magyar halászlé, ami paprikával ízesített halléből és vastag folyami halszeletekből áll.
+                Annak ellenére, hogy meglehetősen egyszerűnek tűnik, nagyon finom. A halászlevet hagyományosan a szabadban készítik, frissen fogott halból.</p>
+                <a href="https://www.youtube.com/watch?v=RgrZLBhbiAw" class="btn btn-primary" target="blank">Elkészítése</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <h2>Lángos</h2>
+            <img src="kepek/langos.jpg" alt="Lángos" title="Lángos">
+            <div>
+                <p>Egy tányér méretű sült tészta, amire tejfölt és sajtot halmoznak. Extra feltétként szolgálhat a fokhagyma, de manapság már ha egy igazi kalóriabombát szeretnénk, nutellás lángost is árulnak.</p>
+                <a href="https://www.youtube.com/watch?v=6ZJxWdIegIg" class="btn btn-primary" target="blank">Elkészítése</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <h2>Borsófőzelék</h2>
+            <img src="kepek/borsofozelek.jpg" alt="Borsófőzelék" title="Borsófőzelék">
+            <div>
+                <p>A főzelékek általában úgy készülnek, hogy sós lében megfőzik a zöldséget, a levet besűrítik, majd sóval és fűszerekkel ízesítik. A sűrítés történhet habarással és rántással, illetve saját levének elfőzésével. A borsófőzelék finom. Főleg fasírttal!</p>
+                <a href="https://www.youtube.com/watch?v=tf7Ja_LAIFM" class="btn btn-primary" target="blank">Elkészítése</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <h2>Somlói galuska</h2>
+            <img src="kepek/somloi.jpg" alt="Somlói galuska" title="Somlói galuska">
+            <div>
+                <p>Mi ez: Egy három különböző piskótából álló desszert (sima, diós, csokis), mazsolával és dióval, megbolondítva egy kis étcsokoládé öntettel, a tetején tejszínhabbal. 
+                    Nagyon csokis, nagyon sütis.</p>
+                <a href="https://www.youtube.com/watch?v=3ZmwO_FKkc8" class="btn btn-primary" target="blank">Elkészítése</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <h2>Töltött káposzta</h2>
+            <img src="kepek/kaposzta.jpg" alt="Töltött káposzta" title="Töltött káposzta">
+            <div>
+                <p>Nagy káposztalevelek hússal és rizzsel töltve, megfőzve, tejföllel leöntve.
+                Ez egy hagyományos, ízletes magyar étel. Ráadásul a káposztát gyakran savanyítják, ami még emlékezetesebb ízt kölcsönöz az ételnek.</p>
+                <a href="https://www.youtube.com/watch?v=XkHadw-FaN8" class="btn btn-primary" target="blank">Elkészítése</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <h2>Túrós csusza</h2> 
+            <img src="kepek/csusza.jpg" alt="Túrós csusza" title="Túrós csusza">
+            <div>
+                <p>Lapos, széles tészta magyar túróval összekeverve, amelyre gyakran sült szalonnát szórnak. Szereted a tésztákat? Szereted a túrót? 
+                    Nos, ez kell neked. Ha húsevő vagy, a szalonna a finom ráadás.</p>
+                <a href="https://www.youtube.com/watch?v=hJsKJOZ1QaY" class="btn btn-primary" target="blank">Elkészítése</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <h2>Lecsó</h2>
+            <img src="kepek/lecso.jpg" alt="Lecsó" title="Lecsó">
+            <div>
+                <p>A paprikás lecsó hagymából, paradicsomból, paprikából áll, de van aki tesz még bele kolbászt és tojást is.
+                Tápláló és egészséges étel a többi magyar étellel összehasonlítva; a lecsót amilyen könnyű elkészíteni, olyan gazdag ízekben.</p>
+                <a href="https://www.youtube.com/watch?v=M3dLlKdIdYg" class="btn btn-primary" target="blank">Elkészítése</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <h2>Pörkölt nokedlivel</h2>
+            <img src="kepek/porkolt.jpg" alt="Pörkölt nokedlivel" title="Pörkölt nokedlivel">
+            <div>
+                <p>A pörkölt húsból (gyakran marhából vagy zúzából készítik), paradicsomból, paprikából és hagymából készül, a magyar „nudlival”, azaz a nokedlivel tálalják.
+                A pörköltet gyakran a szabadban, bográcsban főzik. A szabadban főtt pörkölt egy finom kenyérrel, némi borral a remek társaság alapja.</p>
+                <a href="https://www.youtube.com/watch?v=AfaiUylBAC0" class="btn btn-primary" target="blank">Elkészítése</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <h2>Paprikás csirke</h2>
+            <img src="kepek/paprikascs.jpg" alt="Paprikás csirke" title="Paprikás csirke">
+            <div>
+              <p>Talán Magyarország egyik legismertebb (köszönhetően a When Harry Met Sally című filmnek), a paprikás csirke egy krémes, fűszeres étel, amit meglepő módon gyakran tejföllel esznek.
+                Egy forró, pikáns, húsos finomság, amit általában nokedlivel (gombóccal) tálalnak</p>
+              <a href="https://www.youtube.com/watch?v=69FHrBg19Ww" class="btn btn-primary" target="blank">Elkészítése</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer> <!-- 5.feladat: -->
+        <h3>Készítette: Szabó Levente Zalán és Tóth Roland</h3> <!-- 5.feladat: -->
+        <h6>Minden jog fenntartva ©</h6> <!-- 5.feladat: -->
+    </footer>
+</body>
+</html>
